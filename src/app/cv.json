@@ -1,91 +1,151 @@
 {
     "basics": {
-      "name": "John Doe",
-      "label": "Programmer",
+      "name": "Dmytro Petrin",
+      "label": "Desarrollador Full Stuck",
       "image": "",
-      "email": "john@gmail.com",
-      "phone": "(912) 555-4321",
-      "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
+      "email": "dimapetrin91@gmail.com",
+      "phone": "688398382",
+      "url": "https://dmytroPetrin.com",
+      "summary": "Soy un apasionado programador Full Stack, con experiencia en tecnologías como React, Angular, Golang y Node.js. En mi puesto actual, mis responsabilidades abarcan desde el diseño meticuloso de la estructura de bases de datos hasta el desarrollo integral de código, tanto en el lado del cliente como en el del servidor, garantizando un producto final robusto y eficiente.",
       "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "CA 94115",
-        "city": "San Francisco",
-        "countryCode": "US",
-        "region": "California"
+        "address": "Murcia",
+        "postalCode": "30100",
+        "city": "Murcia",
+        "countryCode": "Spain",
+        "region": "Murcia"
       },
       "profiles": [{
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
+        "network": "Linkedin",
+        "username": "Dmytro Petrin",
+        "url": "https://www.linkedin.com/in/dmytro-petrin-93b5aa179/"
+      },
+       {
+        "network": "Github",
+        "username": "DmytroPetrin",
+        "url": "https://github.com/DmytroPetrin"
       }]
     },
     "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "name": "Aicrumit S.L.",
+      "position": "Full Stack Developer",
+      "url": "https://aicrumit.com/",
+      "startDate": "2023-01-01",
+      "endDate": "",
+      "summary": "Desarrollo de las aplicaciones web desde cero:  Diseño y desarrollo de la bases de datos de las aplicaciones. El objetivo es que los datos ocupen menor espacio posible y que el sistema en si sea lo más optimizado y robusto posible. Diseño y desarrollo del backend. Aquí sobre todo se busca la seguridad del sistema. El usuario con rol determinado tendrá acceso solo a los datos solicitados. La optimización de código para proporcionar mejor velocidad computacional.  Desarrollo de frontend según el diseño establecido (web). Maquetación de los componentes con su posterior desarrollo de modelos para conexiones a backend. Desarrollo de aplicaciones móviles para iOS y Android con React Native. Maquetación y conexiones a backend. Corrigiendo los errores según las incidencias de proyectos finalizados.",
       "highlights": [
-        "Started the company"
+        "Desarollador Full Stack"
       ]
-    }],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
+    },
+    {
+      "name": "Visualtis S.L.",
+      "position": "Full Stack Developer",
+      "url": "https://visualtis.com/",
+      "startDate": "2022-07-04",
+      "endDate": "2023-01-01",
+      "summary": "Desarrollo de aplicaciones web y aplicaciones móviles para plataformas Android e iOS a base de React JS y React Native. Desarrollo de backend en lenguaje de programación Golang. Uso y desarrollo de bases de datos como Oracle y PostgreSQL",
       "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        "Desarollador Full Stack"
+      ]
+    }
+  ],
+    "volunteer": [{
+      "organization": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
       ]
     }],
     "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
+      "institution": "CIFP Carlos III",
+      "url": "https://cifpcarlos3.es/es",
+      "area": "Desarrollo de Aplicaciones Web",
+      "studyType": "CICLO SUPERIOR",
+      "startDate": "2019-09-10",
+      "endDate": "2022-06-10",
+      "score": "7.77",
       "courses": [
-        "DB1101 - Basic SQL"
+        ""
       ]
-    }],
+    },
+    {
+      "institution": "Universidad de Alicante",
+      "url": "https://www.ua.es/",
+      "area": "Química",
+      "studyType": "Grado",
+      "startDate": "2011-10-15",
+      "endDate": "2017-06-15",
+      "score": "",
+      "courses": [
+        ""
+      ]
+    }
+  ],
     "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
     }],
     "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
+      "name": "",
+      "date": "",
+      "issuer": "",
+      "url": ""
     }],
     "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "",
+      "summary": ""
     }],
     "skills": [{
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Desarrollador Full Stack",
+      "level": "Mid",
       "keywords": [
         "HTML",
         "CSS",
-        "JavaScript"
+        "JavaScript", 
+        "TypeScript",
+        "React",
+        "React Native",
+        "Angular",
+        "Node.js",
+        "Express.js",
+        "Golang",
+        "Oracle",
+        "PostgreSQL",
+        "MariaDB",
+        "MySQL",
+        "Python",
+        "Linux",
+        "Docker",
+        "Git",
+        "GitLab"
       ]
     }],
-    "languages": [{
+    "languages": [
+    {
+      "language": "Ucranino",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Ruso",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Español",
+      "fluency": "Alto"
+    },
+    {
       "language": "English",
-      "fluency": "Native speaker"
-    }],
+      "fluency": "B2"
+    }
+  ],
     "interests": [{
       "name": "Wildlife",
       "keywords": [
@@ -94,16 +154,16 @@
       ]
     }],
     "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
+      "name": "",
+      "reference": ""
     }],
     "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "name": "Pizzeria Centro",
+      "startDate": "2022-01-01",
+      "endDate": "2022-05-01",
+      "description": "El proyecto fue desarrollado como fin de Ciclo Formactivo. Se ha diseñado y desarollado el proyecto usando las tecnologías como: Node.js, Angular.js, Express.js, MySQL",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Proyecto Fin de FP Desarrollo de Aplicaciones Web"
       ],
       "url": "https://project.com/"
     }]
