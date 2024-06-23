@@ -13,10 +13,17 @@
   justify-content: flex-start;
 }
 
+.mainSectionRowSpace{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .mainSectionColumn{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  width: 100%;
 }
 
 .imageStyle{
@@ -45,10 +52,23 @@
 
 .textName{
   font-weight: bold;
-  font-size: larger;
+  font-size: xx-large;
 }
 
 .textSection{
   font-weight: bold;
-  font-size: large;
+  font-size: larger;
+}
+
+.textNameSubSection{
+  font-weight: bold;
+  font-size: medium;
+}
+
+.mainSectionRowCity{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration:none;
+  color: black;
 }

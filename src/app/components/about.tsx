@@ -1,11 +1,18 @@
 import { Box } from "@mui/material"
+import {basics} from "../cv.json"
+import style from "../page.module.css"
+
 
 
 export default function About(){
 
     return(
         <>
-        <Box>about</Box>
+        <Box className={style.mainSectionColumn}>
+            <Box  className={style.textSection}>Sobre mi</Box>
+            <Box  className={style.mainSectionRow}>{basics.summary}</Box>
+        </Box>
+        
         </>
     )
 }
