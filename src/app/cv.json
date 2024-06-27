@@ -165,6 +165,7 @@
       "highlights": [
         "Proyecto Fin de FP Desarrollo de Aplicaciones Web"
       ],
-      "url": "https://project.com/"
+      "url": "https://project.com/",
+      "keywords": ["Angular", "Node.js", "Express.js", "MariaDB"]
     }]
   }

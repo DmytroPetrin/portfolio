@@ -18,7 +18,7 @@ export default function Experience(){
                          }</Box>
                     </Box>
                     <Box>{value.position}</Box>
-                    <Box>{value.summary}</Box>
+                    <Box className={style.textExperienceSummary}>{value.summary}</Box>
                 </Box>
                 )}
             </Box>

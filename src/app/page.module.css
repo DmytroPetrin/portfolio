@@ -13,10 +13,19 @@
   justify-content: flex-start;
 }
 
+.mainSectionRowSkills{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .mainSectionRowSpace{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 20px 0 10px 0;
 }
 
 .mainSectionColumn{
@@ -58,11 +67,13 @@
 .textSection{
   font-weight: bold;
   font-size: larger;
+  margin-bottom: 10px;
 }
 
 .textNameSubSection{
   font-weight: bold;
   font-size: medium;
+  margin: 0 0 10px 0;
 }
 
 .mainSectionRowCity{
@@ -71,4 +82,41 @@
   justify-content: flex-start;
   text-decoration:none;
   color: black;
+}
+
+.textSkill{
+  padding: 5px;
+  color: white;
+  background-color: grey;
+  border-radius: 10px;
+  margin: 10px 5px 0 0;
+  text-wrap: nowrap;
+  font-weight: bold;
+}
+
+.textExperienceSummary{
+  padding: 10px 0 10px 0;
+  text-align: justify;
+  line-height: 1,5;
+}
+
+.projectCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.textProjectChip{
+  padding: 5px;
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin: 10px 5px 0 0;
+  text-wrap: nowrap;
+  font-weight: bold;
+  font-size: 12px;
 }
