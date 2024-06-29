@@ -8,12 +8,15 @@ import Experience from  './components/experience'
 import Education from './components/education'
 import Projects from './components/projects'
 import Skills from './components/skills'
+import MenuAppBar from './components/appbar'
 
 const {name} = basics
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <>
+          <MenuAppBar/>
+ <main className={styles.main}>
      <Hero/>
      <About/>
      <Experience/>
@@ -21,5 +24,6 @@ export default function Home() {
      <Projects/>
      <Skills/>
     </main>
+    </>
   );
 }
