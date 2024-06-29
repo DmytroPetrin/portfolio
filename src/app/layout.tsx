@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import style from './page.module.css'
+import {SelectProvider} from './components/selectProvider'
 
 
 
@@ -15,7 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={style.body}>{children}</body>
+      <body className={style.body}>
+        <SelectProvider>
+           {children}
+        </SelectProvider>
+       </body>
     </html>
   );
 }

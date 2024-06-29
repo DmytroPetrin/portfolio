@@ -11,8 +11,21 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 0 6rem 30px 6rem;
+  padding: 30px 6rem 30px 6rem;
   min-height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+.mainDark {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 6rem 30px 6rem;
+  min-height: 100vh;
+  background-color: grey;
+  color: whitesmoke;
 }
 
 .mainSectionRow{
@@ -132,8 +145,10 @@
 
 .appBarStyle{
   background-color: whitesmoke;
-  color: black;
-  margin-bottom: 30px;
+  color: black;  
+  opacity: 0.8;
+  filter: alpha(opacity=100);
+  zoom: 1;
 }
 
 .rowAppbarStyle{
@@ -146,9 +161,15 @@
 .appBarLink{
   color: black ;
   text-decoration: none ;
+  opacity: 1;
 }
 
 .languageImage{
   width: 30px;
   height: 30px;
+}
+
+.estiloImage{
+  width: 20px;
+  height: 20px;
 }

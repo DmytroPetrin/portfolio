@@ -7,15 +7,23 @@ import Link from 'next/link';
 import es_flag from '../assets/es_flag.png'
 import en_flag from '../assets/en_flag.png'
 import Image from 'next/image';
+import { useSelect } from './selectProvider';
+import sun from '../assets/sun.svg'
+import moon from '../assets/moon.svg'
+import {translate} from './translate'
 
 export default function MenuAppBar() {
-const [language, setLanguge] = useState<string>("es")
+const {language, setLanguage, estilo, setEstilo} = useSelect()
  const arrNavBar = ["hero", "about", "experience", "education", "projects", "skills"]
 
 
 
  const handleChange = (event: SelectChangeEvent) =>{
-    setLanguge(event.target.value as string)
+    setLanguage(event.target.value as string)
+ }
+
+ const handleChangeStyle = (event: SelectChangeEvent) =>{
+  setEstilo(event.target.value as string)
  }
 
   return (
@@ -23,14 +31,33 @@ const [language, setLanguge] = useState<string>("es")
         <Toolbar>
           <Box className={style.rowAppbarStyle}>
               {arrNavBar.map((value)=> 
-               <Link href={`#${value}`}  className={style.appBarLink}>
-               <Typography>{value}</Typography>
+               <Link href={`#${value}`}  className={style.appBarLink} key={value}>
+               <Typography>{translate(value)}</Typography>
            </Link>
               )}
           
           </Box>
           <Box>
-          <FormControl fullWidth>
+          <FormControl className={style.mainSectionRow}>
+          <Select
+    labelId="demo-simple-select-label"
+    id="demo-simple-select"
+    value={estilo}
+    label="language"
+    onChange={handleChangeStyle}
+    sx={{
+      '& .MuiOutlinedInput-notchedOutline': {
+        border: 'none',
+      },
+    }}
+  >
+    <MenuItem value={"light"}>
+              <Image src={sun} alt="light style" className={style.estiloImage}/>
+    </MenuItem>
+    <MenuItem value={"dark"}>
+              <Image src={moon} alt="dark style"  className={style.estiloImage}/>
+    </MenuItem>
+    </Select>
   <Select
     labelId="demo-simple-select-label"
     id="demo-simple-select"
