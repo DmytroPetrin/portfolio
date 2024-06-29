@@ -9,7 +9,7 @@ export default function About(){
     return(
         <>
         <Box className={style.mainSectionColumn}>
-            <Box  className={style.textSection}>Sobre mi</Box>
+            <Box  className={style.textSection}  id='about'>Sobre mi</Box>
             <Box  className={style.mainSectionRow}>{basics.summary}</Box>
         </Box>
         

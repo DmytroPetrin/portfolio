@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   font-family: Menlo, Monaco, Lucida Console, 'Courier New', Courier, monospace;
+  line-height: 1 !important;
+
 }
 
 .main {
@@ -104,7 +106,6 @@
 .textExperienceSummary{
   padding: 10px 0 10px 0;
   text-align: justify;
-  line-height: 1,5;
 }
 
 .projectCard{
@@ -115,6 +116,7 @@
   margin: 10px;
   border-radius: 10px;
   border: 1px solid grey;
+  width: 25%;
 }
 
 .textProjectChip{
@@ -132,4 +134,21 @@
   background-color: whitesmoke;
   color: black;
   margin-bottom: 30px;
+}
+
+.rowAppbarStyle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.appBarLink{
+  color: black ;
+  text-decoration: none ;
+}
+
+.languageImage{
+  width: 30px;
+  height: 30px;
 }

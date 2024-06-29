@@ -7,7 +7,7 @@ export default function Experience(){
     return(
         <>
         <Box className={style.mainSectionColumn}>
-            <Box className={style.textSection}>Experiencia</Box>
+            <Box className={style.textSection}  id='experience'>Experiencia</Box>
             <Box className={style.mainSectionColumn}>
                 {work.map((value)=>
                 <Box className={style.mainSectionColumn} key={value.name}>

@@ -6,8 +6,8 @@ export default function Skills(){
 
     return(
         <>
-        <Box className={style.mainSectionColumn} id='skills'>
-        <Box  className={style.textSection}>Habilidades</Box>
+        <Box className={style.mainSectionColumn}>
+        <Box  className={style.textSection}  id='skills'>Habilidades</Box>
         <Box className={style.mainSectionRowSkills}>
             {skills[0].keywords.map((value)=>{
                 return(

@@ -7,7 +7,7 @@ export default function Education(){
     return(
         <>
         <Box className={style.mainSectionColumn}>
-            <Box className={style.textSection}>Educación</Box>
+            <Box className={style.textSection} id='education'>Educación</Box>
             <Box className={style.mainSectionColumn}>
                 {education.map((value)=>
                 <Box className={style.mainSectionColumn} key={value.institution}>

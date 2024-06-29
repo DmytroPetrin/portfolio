@@ -21,7 +21,7 @@ export default function Hero(){
         <>
         <Box className={style.mainSectionRow}>
             <Box className={style.mainSectionColumn}>
-                <Box className={style.textName}>{basics.name}</Box>
+                <Box className={style.textName} id='hero'>{basics.name}</Box>
                 <Box>{basics.summary}</Box>
                 <Link href="https://www.google.com/maps/place/Murcia/@37.9805644,-1.1477748,14z/data=!3m1!4b1!4m6!3m5!1s0xd6381f8d5928c7f:0xd627129b38c4ab9a!8m2!3d37.9922399!4d-1.1306544!16zL20vMGc4M2o?entry=ttu"
                  className={style.mainSectionRowCity}>

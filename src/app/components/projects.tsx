@@ -6,8 +6,8 @@ export default function Projects(){
 
     return(
         <>
-        <Box className={style.mainSectionColumn}>
-            <Box className={style.textSection}>Proyectos</Box>
+        <Box className={style.mainSectionColumn} >
+            <Box className={style.textSection} id='projects'>Proyectos</Box>
             {projects.map((value)=>{
                 return(
                 <Box className={style.projectCard}>
