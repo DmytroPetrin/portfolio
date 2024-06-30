@@ -1,7 +1,7 @@
 {
     "basics": {
       "name": "Dmytro Petrin",
-      "label": "Desarrollador Full Stuck",
+      "label": "Desarrollador Full Stack | Go | React | Node.js | Angular |",
       "image": "",
       "email": "dimapetrin91@gmail.com",
       "phone": "688398382",
@@ -161,9 +161,9 @@
       "name": "Pizzeria Centro",
       "startDate": "2022-01-01",
       "endDate": "2022-05-01",
-      "description": "El proyecto fue desarrollado como fin de Ciclo Formactivo. Se ha diseñado y desarollado el proyecto usando las tecnologías como: Node.js, Angular.js, Express.js, MySQL",
+      "description": "El proyecto es una pagina web para un restaurante donde existen tres roles: Cliente, Administrador y Empleado.",
       "highlights": [
-        "Proyecto Fin de FP Desarrollo de Aplicaciones Web"
+        
       ],
       "url": "https://project.com/",
       "keywords": ["Angular", "Node.js", "Express.js", "MariaDB"]

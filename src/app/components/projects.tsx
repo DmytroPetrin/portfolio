@@ -20,8 +20,8 @@ export default function Projects(){
             {projects?.map((value)=>{
                 return(
                 <Box className={style.projectCard}>
-                        <Box>{value.name}</Box>
-                        <Box>{value.description}</Box>
+                        <Box className={style.projectTitle}>{value.name}</Box>
+                        <Box className={style.projectText}>{value.description}</Box>
                     <Box className={style.mainSectionRowSkills}>
                         {value.keywords.map((keyword)=>
                             <Box className={style.textProjectChip}>{keyword}</Box>

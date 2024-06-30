@@ -14,7 +14,7 @@ import {translate} from './translate'
 
 export default function MenuAppBar() {
 const {language, setLanguage, estilo, setEstilo} = useSelect()
- const arrNavBar = ["hero", "about", "experience", "education", "projects", "skills"]
+ const arrNavBar = ["contact", "about", "workExperience", "education", "projects", "skills"]
 
 
 

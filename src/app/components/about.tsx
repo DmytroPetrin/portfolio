@@ -17,7 +17,7 @@ export default function About(){
         <>
         <Box className={style.mainSectionColumn}>
             <Box  className={style.textSection}  id='about'>{translate('about')}</Box>
-            <Box  className={style.mainSectionRow}>{basics?.summary}</Box>
+            <Box  className={style.aboutText}>{basics?.summary}</Box>
         </Box>
         
         </>
