@@ -15,7 +15,7 @@ export default function Skills(){
         <Box className={style.mainSectionRowSkills}>
             {skills[0].keywords.map((value)=>{
                 return(
-                     <Box className={style.textSkill}>{value}</Box>
+                     <Box className={style.textSkill} key={value}>{value}</Box>
                 )
             })}
         </Box>

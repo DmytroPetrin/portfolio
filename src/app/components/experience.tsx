@@ -19,7 +19,7 @@ export default function Experience(){
         <Box className={style.mainSectionColumn}>
             <Box className={style.textSection}  id='experience'>{translate('workExperience')}</Box>
             <Box className={style.mainSectionColumn}>
-                {work.map((value)=>
+                {work?.map((value)=>
                 <Box className={style.mainSectionColumn} key={value.name}>
                     <Box className={style.mainSectionRowSpace}>
                         <Box className={style.textNameSubSection}>{value.name}</Box>
