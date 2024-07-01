@@ -14,7 +14,7 @@ import {translate} from './translate'
 
 export default function MenuAppBar() {
 const {language, setLanguage, estilo, setEstilo} = useSelect()
- const arrNavBar = ["contact", "about", "workExperience", "education", "projects", "skills"]
+ const arrNavBar = ["contact", "about", "workExperience", "education", "skills", "projects"]
 
 
 
@@ -28,11 +28,11 @@ const {language, setLanguage, estilo, setEstilo} = useSelect()
 
   return (
        <AppBar position="sticky" className={style.appBarStyle}>
-        <Toolbar>
+        <Toolbar className={style.styleToolbar}>
           <Box className={style.rowAppbarStyle}>
               {arrNavBar.map((value)=> 
                <Link href={`#${value}`}  className={style.appBarLink} key={value}>
-               <Typography>{translate(value)}</Typography>
+               {translate(value)}
            </Link>
               )}
           

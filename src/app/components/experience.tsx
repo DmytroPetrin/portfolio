@@ -18,11 +18,11 @@ export default function Experience(){
         <>
         <Box className={style.mainSectionColumn}>
             <Box className={style.textSection}  id='workExperience'>{translate('workExperience')}</Box>
-            <Box className={style.mainSectionColumn}>
+            <Box className={style.containterColumn}>
                 {work?.map((value)=>
-                <Box className={style.mainSectionColumn} key={value.name}>
+                <Box className={style.containterColumn} key={value.name}>
                     <Box className={style.mainSectionRowSpace}>
-                        <Box className={style.textNameSubSection}>{value.name}</Box>
+                        <Box className={style.textNameSubSectionEduc}>{value.name}</Box>
                          <Box>{new Date(value.startDate).getFullYear()} - {
                          value.endDate !=='' ? new Date(value.endDate).getFullYear() : translate("currently")
                          }</Box>

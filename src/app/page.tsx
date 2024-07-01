@@ -9,17 +9,18 @@ import Projects from './components/projects'
 import Skills from './components/skills'
 import MenuAppBar from './components/appbar'
 import {useSelect} from './components/selectProvider'
+import { Box } from '@mui/material'
 
 export default function Home() {
   const {estilo} = useSelect()
   const mapStyle = new Map()
-  mapStyle.set('light', styles.main)
-  mapStyle.set('dark', styles.mainDark)
+  mapStyle.set('light', [styles.main, styles.bodyBack])
+  mapStyle.set('dark', [styles.mainDark, styles.bodyBackDark])
 
   return (
-    <>
-          <MenuAppBar/>
- <main className={mapStyle.get(estilo)}>
+    <div className={mapStyle.get(estilo)[1]}>
+    <MenuAppBar/>
+   <main className={mapStyle.get(estilo)[0]}>
      <Hero/>
      <About/>
      <Experience/>
@@ -27,7 +28,7 @@ export default function Home() {
      <Skills/>
      <Projects/>
     </main>
-    </>
+    </div>
    
   );
 }
